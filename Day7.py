@@ -31,3 +31,4 @@ print(A)
 
 A=np.array([range(i,i+4) for i in [3,4,5,6]])
 print(A)
+
