@@ -4,6 +4,7 @@ Created on Tue May 21 17:31:46 2024
 
 @author: Hafsa
 """
+!pip install numpy
 import numpy as np
 
 
