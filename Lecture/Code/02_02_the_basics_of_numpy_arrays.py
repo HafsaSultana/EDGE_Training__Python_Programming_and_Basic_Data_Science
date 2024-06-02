@@ -126,7 +126,12 @@ Multidimensional slices work in the same way, with multiple slices separated by 
 For example:
 """
 
-x2
+import numpy as np
+x2 = np.array(( [[12,  5,  2,  4],
+        [ 7,  6,  8,  8],
+        [ 1,  6,  7,  7]]
+
+        ))
 
 x2[:2, :3]  # first two rows & three columns
 
